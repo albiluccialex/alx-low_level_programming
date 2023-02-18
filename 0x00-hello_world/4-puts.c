@@ -1,7 +1,10 @@
 #include <stdio.h>
-int main(void)
+/*
+ * The main function will use the puts function
+ */
+int main(void);
+/* Will display text */
 {
-/* Using the puts function to display text */
 puts("Programming is like building a multilingual puzzle");
 return (0);
 }

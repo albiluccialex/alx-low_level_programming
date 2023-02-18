@@ -1,9 +1,12 @@
 #include <stdio.h>
-/*
- * The main function will use the puts function
+/**
+ * main-Entry point
+ *
+ * Description:'(Ths code will print text)'
+ *
+ * Return: Always 0
  */
 int main(void);
-/* Will display text */
 {
 puts("\"Programming is like building a multilingual puzzle\n");
 return (0);

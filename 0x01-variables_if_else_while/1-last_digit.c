@@ -11,7 +11,6 @@
  */
 int main(void)
 {
-	int n;
 	int l;
 
 	l = n % 10;

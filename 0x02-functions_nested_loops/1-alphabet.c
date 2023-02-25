@@ -11,8 +11,8 @@
 int main(void)
 
 {
-	char i = "a";
-	char j = "z";
+	int i = "a";
+	int j = "z";
 
 	{
 

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main- Entry
+ * print_alphabet- Entry
  *
  * Description: This code will print the alphabet.
  *
@@ -11,13 +11,13 @@
 void print_alphabet(void)
 
 {
-	char i = 'a';
-	char j = 'z';
+	char 'a';
+	char 'z';
 
 	{
 
-	while (i <= j)
-		_putchar('i');
+	while (a <= z)
+		_putchar('a', a++);
 	}
 	_putchar('\n');
 }

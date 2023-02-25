@@ -19,7 +19,7 @@ void print_alphabet_x10(void)
 	{
 		for (j = 'z'; i <= j; i++)
 		{
-			_putchar(i);
+			_putchar(k, i);
 		}
 		_putchar('\n');
 	}

@@ -12,8 +12,6 @@
 int print_sign(int n)
 
 {
-	int n = 2;
-
 	if (n > 0)
 	{
 		printf("+%d", n);

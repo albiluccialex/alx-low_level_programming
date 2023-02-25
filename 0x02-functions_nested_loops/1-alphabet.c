@@ -17,7 +17,7 @@ int main(void)
 	{
 
 	while (i <= j)
-		_putchar('%c', i, i++);
+		_putchar("%d", i, i++);
 	}
 	_putchar('\n');
 	return (0);

@@ -11,14 +11,13 @@
 int main(void)
 
 {
-	char i = 'a';
-	char j = 'z';
+	int i = 'a';
+	int j = 'z';
 
 	{
 
 	while (i <= j)
-		_putchar('%c', i);
-		i++;
+		_putchar('%c', i, i++);
 	}
 	_putchar('\n');
 	return (0);

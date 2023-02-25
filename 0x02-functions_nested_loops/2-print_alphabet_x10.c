@@ -18,7 +18,10 @@ print_alphabet_x10(void)
 	for (k = 1; k <= 10; k++)
 	{
 		for (j = 'z'; i <= 'z'; i++)
+		{
 			_putchar(i);
+		}
 	}
 	_putchar('\n');
+	return (0);
 }

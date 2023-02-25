@@ -17,7 +17,7 @@ int main(void)
 	{
 
 	while (i <= j)
-		_putchar('i', i++);
+		_putchar('i');
 	}
 	_putchar('\n');
 	return (0);

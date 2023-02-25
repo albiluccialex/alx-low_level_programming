@@ -12,7 +12,7 @@
 int main(void)
 
 {
-	int n;
+	int n = 2;
 
 	if (n > 0)
 	{

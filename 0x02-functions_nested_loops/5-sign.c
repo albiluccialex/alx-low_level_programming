@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * print_sign - Entry
  *
  * Description: will print signed number
  *
  * Return: 1 if +, -1 if -
  */
 
-int main(void)
+int print_sign(int n)
 
 {
 	int n = 2;

@@ -14,6 +14,8 @@ int main(void)
 
 {	char a[10];
 	strlen(a);
+	int l;
+	l = strlen(a);
 
 	return (0);
 }

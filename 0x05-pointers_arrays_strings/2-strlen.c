@@ -14,7 +14,7 @@
 int main(void)
 
 {
-	strlen;
+	strlen
 
 	return (0);
 }

@@ -12,6 +12,6 @@
  */
 int main(void)
 
-{
-	strlen;
+{	char a[0];
+	strlen(a);
 }

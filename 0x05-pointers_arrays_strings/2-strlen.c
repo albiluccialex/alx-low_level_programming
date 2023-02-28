@@ -12,10 +12,13 @@
  */
 
 int _strlen(char *s)
-
 {
-	if (char *s = string)
-	strlen (const char *s);
+	int len;
+
+	char *s[20] = "My first strlen";
+
+	_putchar("strlen(*s) : %d", len);
 
 	return (0);
 }
+

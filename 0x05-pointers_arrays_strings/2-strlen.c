@@ -10,12 +10,9 @@
  *
  * Return: 0
  */
-int main(void)
 
-{	char a[10];
-	strlen(a);
-	int l;
-	l = strlen(a);
+int _strlen(char *s)
 
-	return (0);
+{
+	strlen;
 }

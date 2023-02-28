@@ -11,8 +11,10 @@
  * Return: 0
  */
 
-int _strlen(char *s)
+int _strlen
 
 {
 	strlen;
+
+	return (0);
 }

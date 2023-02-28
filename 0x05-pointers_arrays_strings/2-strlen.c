@@ -11,7 +11,7 @@
  * Return: 0
  */
 
-int _strlen;
+int main(void)
 
 {
 	strlen;

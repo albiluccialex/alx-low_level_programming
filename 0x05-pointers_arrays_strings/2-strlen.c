@@ -4,14 +4,14 @@
 #include <string.h>
 
 /**
- * int_strlen- Entry point
+ * main- Entry point
  *
  * Description: Returns the length of a string
  *
  * Return: 0
  */
-int _strlen(char *s)
+int main(void)
 
 {
-	strlen(str1);
+	strlen;
 }

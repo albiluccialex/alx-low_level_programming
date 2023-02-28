@@ -4,17 +4,17 @@
 #include <string.h>
 
 /**
- * main- Entry point
+ * _strlen- Will return length of string.
  *
  * Description: Returns the length of a string
  *
  * Return: 0
  */
 
-int main(void)
+int _strlen(char *s)
 
 {
-	strlen
+	strlen(*s);
 
 	return (0);
 }

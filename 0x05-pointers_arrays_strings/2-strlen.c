@@ -14,7 +14,8 @@
 int _strlen(char *s)
 
 {
-	strlen (char *s);
+	if (char *s = string)
+	strlen (const char *s);
 
 	return (0);
 }

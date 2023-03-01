@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * void _puts- Prints a string followed by new line
+ *_puts- Prints a string followed by new line
  *
  * @str: parameter member
  *

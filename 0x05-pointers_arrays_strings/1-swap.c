@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * swap_int- Entry point
+ * swap_int- swaps values
  *
- * Description: swaps values of variables
+ * @a: parameter member
+ * @b: parameter member
  *
  * Return: 0
  */

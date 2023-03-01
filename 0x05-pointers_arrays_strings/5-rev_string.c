@@ -20,15 +20,15 @@ void rev_string(char *s)
 	{
 		g++;
 	}
+
 	stlen = g - 1;
 	prtstr = stlen / 2;
-	
-	for(g = 0; g <= prtstr; g++)
+
+	for (g = 0; g <= prtstr; g++)
 	{
 		hldr = s[g];
 		s[g] = s[stlen];
 		s[stlen] = hldr;
 		stlen--;
 	}
-
 }

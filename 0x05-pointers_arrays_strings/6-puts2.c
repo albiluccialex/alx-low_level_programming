@@ -11,7 +11,7 @@
  */
 void puts2(char *str)
 {
-	int g;
+	int g, strlngt, a;
 
 	g = 0;
 
@@ -21,8 +21,9 @@ void puts2(char *str)
 	}
 		strlngt = g - 1;
 
-		for (a = 0; a <= g; a++)
+		for (a = 0; a <= strlngt; a++)
 		{
+			if (j == 0)
 			_putchar(str[0]);
 			if (a / 2)
 				_putchar(str[a]);

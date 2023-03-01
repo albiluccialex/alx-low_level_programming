@@ -23,10 +23,8 @@ void puts2(char *str)
 
 		for (a = 0; a <= strlngt; a++)
 		{
-			if (a == 0)
-			_putchar(str[0]);
-			if (a / 2)
-				_putchar(str[a]);
+			if (a % 2 == 0)
+			_putchar(str[a]);
 		}
 		_putchar('\n');
 }

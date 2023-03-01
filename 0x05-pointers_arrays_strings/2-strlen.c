@@ -6,19 +6,19 @@
 /**
  * _strlen- Will return length of string.
  *
- * Description: Returns the length of a string
+ * @s: A parameter member
  *
  * Return: 0
  */
 
 int _strlen(char *s)
 {
-	int len;
+	int a = 0;
 
-	char *s[20] = "My first strlen";
-
-	_putchar("strlen(*s) : %d", len);
-
-	return (0);
+	while (s[a] != '\0')
+	{
+		a++;
+	}
+	return (a);
 }
 

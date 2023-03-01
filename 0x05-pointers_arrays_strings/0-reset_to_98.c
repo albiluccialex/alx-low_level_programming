@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * reset_to_98(int *n)- Entry point
+ * reset_to_98- changes value of a variable
  *
- * description: Changes value of variable
+ * @n: parameter member
  *
  * Return: 0
  */

@@ -13,12 +13,11 @@ int main(void)
 {
 	int b;
 
-	for (b = '0'; b <= '9'; b++)
+	for (b = 0; b <= '9'; b++)
 
 	{
-		putchar("%d", b);
+		putchar((b % 10) + '0');
 	}
-		putchar('\n');
-
-		return (0);
+	putchar('\n');
+	return (0);
 }

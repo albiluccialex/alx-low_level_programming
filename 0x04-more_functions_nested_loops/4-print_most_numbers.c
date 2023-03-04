@@ -15,6 +15,6 @@ void print_most_numbers(void)
 	{
 		if (num == 2 || num == 4)
 			continue;
-		_puctchar(num + 48);
+		_puctchar(num);
 	}
 }

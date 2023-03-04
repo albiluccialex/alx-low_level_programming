@@ -14,8 +14,8 @@ void print_numbers(void)
 
 	for (num = 0; num < 10; ++num)
 	{
-		printf(num);
+		_putchar(num);
 	}
 
-	printf('\n');
+	_putchar('\n');
 }

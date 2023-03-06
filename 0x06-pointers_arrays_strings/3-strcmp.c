@@ -8,7 +8,7 @@
  * Return: < 0 if s1 is < s2, 0 if both are =, > 0 if s1 is greater s2
  */
 
-int _strcmp(char *s!, char *s2)
+int _strcmp(char *s, char *s2)
 {
 	while (*s1 == *s2)
 	{
@@ -17,7 +17,7 @@ int _strcmp(char *s!, char *s2)
 			return (0);
 		}
 		s1++;
-		s@++;
+		s2++;
 	}
 
 	return (*s1 - *s2);

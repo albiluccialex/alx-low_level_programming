@@ -3,16 +3,30 @@
 /**
  * _strcat- Concatenates two strings
  *
- * @dest: 1st parameter
- * @src: parameter 2
+ * @dest: The string to append
+ * @src: Te string to be added to
  *
- * Return: dest
+ * Return: A parameter to the resulting string
  */
 
 char *_strcat(char *dest, char *src)
 
 {
-	strcat(dest, src);
-	_putchar('\n');
+	int j, k;
+
+	j = 0;
+	k = 0;
+
+	while (dest[j] != '\0')
+		j++;
+
+	while (src[k] != '\0')
+	{
+		dest[j] = src[k];
+		k++;
+		j++;
+	}
+	dest[j] = '\0';
+
 	return (dest);
 }

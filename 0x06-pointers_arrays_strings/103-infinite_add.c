@@ -48,7 +48,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		j++;
 	a--;
 	j--;
-	if (j >= size_r || a >= 0 || overflow == 1)
+	if (j >= size_r || a >= size_r)
+		return (0);
+
+	while (j >= size_r || a >= 0 || overflow == 1)
 	{
 		if (a < 0)
 			val1 = 0;
